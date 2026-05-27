@@ -17,7 +17,7 @@ from tools import web_search, scrape_url
 # =========================
 
 llm = ChatMistralAI(
-    model="mistral-small-latest",
+    model="mistral-small-2506",
     temperature=0,
     api_key=os.getenv("MISTRAL_API_KEY"),
 )
